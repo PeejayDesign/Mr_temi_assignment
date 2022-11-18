@@ -2,7 +2,8 @@ $(document).ready(function () {
   
     // FETCHING DATA FROM JSON FILE
     $.getJSON("/Result.JSON", 
-            function (data) {
+            function (data)
+ {
         var student = '';
 
         // ITERATING THROUGH OBJECTS
