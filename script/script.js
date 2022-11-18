@@ -1,5 +1,5 @@
 let request = new XMLHttpRequest();
-request.open("GET", "https://jsonplaceholder.typicode.com/posts");
+request.open("GET", "https://mocki.io/v1/6b56a448-6214-4f29-b381-fd466a855ea6");
 request.send();
 request.onload = () =>{
     console.log(request);
@@ -12,6 +12,3 @@ request.onload = () =>{
     }
 };
 
-// fetch('https://jsonplaceholder.typicode.com/posts/1')
-//   .then((response) => response.json())
-//   .then((json) => console.log(json));
