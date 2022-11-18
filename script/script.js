@@ -1,5 +1,5 @@
 let request = new XMLHttpRequest();
-request.open("GET", "https://mocki.io/v1/6b56a448-6214-4f29-b381-fd466a855ea6");
+request.open("GET", "https://jsonplaceholder.typicode.com/posts");
 request.send();
 request.onload = () =>{
     console.log(request);
